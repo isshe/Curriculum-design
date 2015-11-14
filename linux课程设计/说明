@@ -1,0 +1,9 @@
+
+1. 功能说明:
+    1). 使用多播获取局域网内的主机的MAC地址.
+
+2. 编译:
+    1). 服务器: server/目录下
+        gcc *.c ../lib_ser/*.c -o server -I ../include 
+    2). 客户端: client/目录下
+        gcc *.c ..lib_cli/*.c -o client -I ../include
