@@ -10,14 +10,8 @@ Ullman isomorphism algorithm
 
 **Usage:**
 
-    ./ullman -database [file_name] -query [file_name] &> log
+    ./ullman -database [file_name] -query [file_name] [&> log]
+    
+2015.11.21
 
-**Progress:**
 
-1. Upload the final report
-
-12/21/2014
-
-1. Document
-2. Refine codes
-3. Correctness test
