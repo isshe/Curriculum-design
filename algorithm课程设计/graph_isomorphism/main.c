@@ -16,7 +16,6 @@
 #include <stdlib.h>
 
 
-
 int main(void)
 {
      int **graph_a = NULL;  //指向a图
@@ -84,7 +83,7 @@ int main(void)
          return 0;
      }
 
-     //求两图的度, 排序后判断每个顶点的度
+     //求两图每个点的度, 排序后判断每个顶点的度
      graph_degree(graph_a, ga_degree);
      graph_degree(graph_b, gb_degree);
 

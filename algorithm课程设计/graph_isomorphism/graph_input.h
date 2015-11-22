@@ -14,4 +14,4 @@
 
 #include <>
 
-int graph_input(int **graph);
+int graph_input(int **graph, int v_num);
