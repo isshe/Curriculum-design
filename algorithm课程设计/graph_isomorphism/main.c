@@ -93,7 +93,6 @@ int main(void)
 
 
 
-
      //求矩阵的秩
      ga_rand = graph_rand(graph_a);
      gb_rand = graph_rand(graph_b);
