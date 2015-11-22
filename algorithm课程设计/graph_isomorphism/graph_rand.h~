@@ -15,4 +15,3 @@
 #include <stdio.h>
 
 int graph_rand(int **graph);
-

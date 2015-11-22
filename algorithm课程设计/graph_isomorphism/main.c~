@@ -16,7 +16,6 @@
 #include <stdlib.h>
 
 
-
 int main(void)
 {
      int **graph_a = NULL;  //指向a图

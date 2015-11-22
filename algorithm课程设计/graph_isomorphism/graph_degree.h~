@@ -1,7 +1,7 @@
 /*==============================================================================\
 * Copyright(C)2015 Chudai.
 *
-* File name    : graph_rand.h
+* File name    : graph_degree.h
 * Version      : v1.0.0
 * Author       : 初代
 * Date         : 2015/11/22
@@ -12,7 +12,5 @@
 * History      :
 \*==============================================================================*/
 
-#include <stdio.h>
 
-int graph_rand(int **graph);
-
+void graph_degree(int **graph, int *degree);

@@ -19,7 +19,7 @@ int graph_degree(int **graph, int *degree)
 {
     //求度
 
-
+ 
 
     //判断
 
