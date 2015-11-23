@@ -39,7 +39,7 @@ int main(void)
 
      if (va_num != vb_num)
      {
-          printf("不同构!\n");
+          printf("不同构! 顶点数不相等!\n");
           return 0;
      }
 /*
@@ -81,7 +81,7 @@ int main(void)
      //判断边数是否相等
      if(ea_num != eb_num)
      {
-         printf("不同构!\n");
+         printf("不同构! 边数不相等!\n");
          return 0;
      }
 
@@ -95,7 +95,7 @@ int main(void)
      {
          if (ga_degree[i] != gb_degree[i])
          {
-             printf("不同构!\n");
+             printf("不同构! 各个顶点的度不对应!\n");
              return 0;
          }
      }
@@ -109,7 +109,8 @@ int main(void)
      //判断矩阵的4是否相等
      if (ga_rand != gb_rand)
      {
-         printf("不同构!\n");
+//         printf("%d %d\n", ga_rand, gb_rand);
+         printf("不同构! 秩不相等!\n");
      }
      else
      {

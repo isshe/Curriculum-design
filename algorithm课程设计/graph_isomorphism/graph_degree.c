@@ -47,12 +47,13 @@ void graph_degree(int **graph, int *degree, int v_num)
     //排序
     qsort(temp_degree, v_num, sizeof(int), compare);
 
-    //试试输出
+/*    //试试输出
     printf("测试一下排序后的度: \n");
     for (i = 0; i < v_num; i++)
     {
          printf("%d ", temp_degree[i]);
     }
     printf("\n");
+*/
 
 }
