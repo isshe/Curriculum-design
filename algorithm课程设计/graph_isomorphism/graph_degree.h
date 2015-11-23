@@ -11,6 +11,15 @@
 *                3.
 * History      :
 \*==============================================================================*/
- 
+#ifndef GRAPH_DEGREE_H
+#define GRAPH_DEGREE_H
 
-void graph_degree(int **graph, int *degree);
+//#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+void graph_degree(int **graph, int *degree, int v_num);
+
+
+#endif

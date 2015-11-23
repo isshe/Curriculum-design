@@ -12,4 +12,11 @@
 * History      :
 \*==============================================================================*/
 
-int graph_input(int **graph);
+#ifndef GRAPH_INPUT_H
+#define GRAPH_INPUT_H
+
+#include "main.h"
+
+int graph_input(int **graph, int v_num);
+
+#endif

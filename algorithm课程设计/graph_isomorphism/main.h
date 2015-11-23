@@ -1,22 +1,28 @@
 /*==============================================================================\
 * Copyright(C)2015 Chudai.
 *
-* File name    : graph_degree.h
+* File name    : main.h
 * Version      : v1.0.0
 * Author       : 初代
-* Date         : 2015/11/22
+* Date         : 2015/11/23
 * Description  :
 * Function list: 1.
 *                2.
 *                3.
 * History      :
 \*==============================================================================*/
-#ifndef GRAPH_DEGREE_H
-#define GRAPH_DEGREE_H
+#ifndef MAIN_H
+#define MAIN_H
 
-#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
-void graph_degree(int **graph, int *degree, int v_num);
+#include "graph_input.h"
+#include "graph_degree.h"
+#include "graph_malloc.h"
+#include "graph_free.h"
+#include "graph_rand.h"
 
 
 #endif

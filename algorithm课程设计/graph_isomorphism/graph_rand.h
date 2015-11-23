@@ -12,7 +12,15 @@
 * History      :
 \*==============================================================================*/
 
+#ifndef GRAPH_RAND_H
+#define GRAPH_RAND_H
+
+//#include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
-int graph_rand(int **graph);
+int graph_rand(int **graph, int v_num);
 
+
+#endif
