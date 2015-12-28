@@ -43,7 +43,7 @@ int main(void)
 	//availabel
 	if ((available = (int *)malloc(m *sizeof(int))) == NULL)
 	{
-		perror("malloc all error");
+		perror("malloc available error");
 		exit(1);
 	}
 	//分配一维数组req
